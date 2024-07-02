@@ -1,0 +1,172 @@
+/* start sidebar */
+.side {
+    position: fixed;
+    background-color: #111111fe;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    display: none;
+
+}
+
+.side a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 60px;
+    padding-left: 20px;
+    transition: all 0.5s;
+}
+
+.side a:hover {
+    color: red;
+}
+
+.side i {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.side i:hover {
+    color: red;
+}
+
+/* end sidebar */
+/* start header */
+
+header {
+    height: 70vh;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.328), rgba(255, 0, 0, 0.4)), url(../imgs/events-heavenly-header.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .options {
+    align-self: flex-start;
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-left: 20px;
+}
+
+header .options p {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+header .options p:hover {
+    color: black;
+}
+
+header .cont {
+    text-align: center;
+    color: white;
+}
+
+header .cont h2 {
+    font-size: 60px;
+}
+
+/* end header */
+
+/* start singer-sec */
+
+.singer h3 {
+    background-color: #e68285;
+    margin-bottom: 0;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.singer .text {
+    background-color: #ccc;
+}
+
+.singer .text2 ,.text3,.text4{
+    display: none;
+}
+/* end singer sec */
+
+/* start counter */
+
+.counter-container {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.328), rgba(255, 0, 0, 0.4)), url(../imgs/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.time {
+    font-size: 24px;
+    margin: 5px 0;
+    border: 2px solid white;
+    padding: 40px 60px;
+    margin-inline: 40px;
+}
+
+.time span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* end counter */
+
+/* start join us */
+.join {
+    margin-bottom: 40px;
+}
+
+.join ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 30px;
+}
+
+.join ul li {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.join ul li:hover {
+    background-color: red;
+    color: white;
+}
+
+.join textarea {
+    height: 160px;
+}
+
+.join .btn {
+    background-color: red;
+}
+
+.join .btn a {
+    text-decoration: none;
+    color: white;
+}
+
+/* end join us */
